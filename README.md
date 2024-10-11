@@ -1,5 +1,6 @@
 # ARRAYS-AND-STRINGS
 Arrays-and-strings
+
 Aim:
 To use and implement C++ Arrays and string.
 
@@ -24,8 +25,13 @@ int main()
         cout<<x[i]<<endl;
     }
 }
+
+
+
 Strings:
 In C++, a string is an array of characters terminated by a null character ('\0'). Strings in C++ can be handled using either C-style strings (character arrays) or the std::string class from the Standard Library.
+
+
 
 Syntax:
 char str[10] = "Hello";
@@ -40,6 +46,8 @@ int main()
 
     cout<<str1<<endl<<str2<<endl<<str3;
 }
+
+
 Algorithms:
 Sum of elements:
 Step 1: Start.

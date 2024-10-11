@@ -16,7 +16,9 @@ data_type array_name[array_size];
 
 #include<iostream>
 using namespace std;
+
 int main()
+
 {
     int x[6] = {1,4,7,8,3,9};
     int i;
@@ -34,16 +36,18 @@ In C++, a string is an array of characters terminated by a null character ('\0')
 
 
 Syntax:
+
 char str[10] = "Hello";
 
 #include<iostream>
+
 using namespace std;
+
 int main()
 {
     char str1[4] = "C++";
     char str2[] = {'s','+','+','\0'};
     string str3 = "C++";
-
     cout<<str1<<endl<<str2<<endl<<str3;
 }
 
